@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel reservation form</title>
+    </head>
+   <body>
+        <h1>Travel reservation form</h1>
+        <h2>*denotes mandotory</h2>
+        <form>
+            <br>
+            <label for="fullnume">Full Nume*:</label><br>
+            <input type="text" name="fullnume" placeholder="FirstName LastName" required>
+            <br><br>
+            <label for="email">Email address*:</label> <br>
+            <input type="email" name="emailaddress" placeholder="email_address" required>
+            <br><br>
+            <label for="tourpackage">Select tour package*:</label><br>
+            <select name="tourpackage">
+                    <option value="goa">Goa</option>
+                    <option value="shikar">Shikar</option>
+                    <option value="japan">Japan</option>
+                    <option value="orisa">Orisa</option>
+                  </select>
+            <br><br>
+            <label for="arrivaldate">Arrival date*:</label><br>
+            <input type="date" id="arrivaldate" name="arrivaldate" placeholder="arrivaldate" required>
+            <br><br>
+            <label for="numberofpersons">Number of persons*:</label><br>
+            <input type="number" name="numberofpersons" placeholder="unknown_type" required>
+            <br><br>
+            <label for="whatwouldyouwanttoavail">What would you want to avail?*:</label><br> 
+            <input name="boarding" type="checkbox" required>Boarding<br>
+            <input name="fooding" type="checkbox">Fooding<br>
+            <input name="sight seeing" type="checkbox">Sight seeing<br>
+            <br>
+            <label for="discountcuponcode">Discount cupon code:</label><br>
+            <input type="number" name="discountcuponcode" placeholder="unknown_type">
+            <br><br>
+            <label for="termsandconditions">Terms and conditions*:</label><br> 
+            <input type="radio"  value="iagree" required>I agree<br>
+            <input type="radio"  value="idisagree">I disagree<br>
+            <br>
+            <input type="submit" value="Complete reservation">
+        </form>  
+    </body>
+</html>      

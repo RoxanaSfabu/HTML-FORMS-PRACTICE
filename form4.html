@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My feedback form</title>
+    </head>
+   <body>
+    <h1>My feedback form</h1>
+        <form>
+            <br>
+            <label for="nume"> • Nume:</label>
+            <input type="text" name="nume">
+            <br>
+            <label for="email"> • Email address:</label>
+            <input type="email" name="emailaddress">
+            <br>
+            <label for="password"> • Password:</label>
+            <input type="password" name="password">
+            <br><br>
+            <label for="emotions">Please check all the emotions that apply to you:</label><br> 
+            • Angry<input name="angry" type="checkbox"><br>
+            • Sad<input name="sad" type="checkbox"><br>
+            • Happy<input name="happy" type="checkbox"><br>
+            • Ambivalent<input name="ambivalent" type="checkbox"><br>
+            <br>
+            <label for="service">How satistied were you with our service?</label><br> 
+            • Very satisfied<input type="radio"  value="verysatisfied" required><br>
+            • Satisfied<input type="radio"  value="satisfied"><br>
+            • Didn't care<input type="radio"  value="didntcare"><br>
+            • Dissatisfied<input type="radio"  value="dissatisfied"><br>  
+            • Very dissatisfied<input type="radio"  value="verydissatisfied"><br>
+            <br>
+            • Further comments:
+            <textarea name="mesaj" rows="4" maxlength="70" cols="30"></textarea>
+            <br>
+            <label for="file"> • Bio photo:</label>
+            <input type="file" accept="image/*" name="pic" >
+            <br>
+            <label for="locationvisited">• Location visited:</label>
+            <select name="locationvisited"><br>
+                    <option value="iasi">Iasi</option>
+                    <option value="botosani">Botosani</option>
+                    <option value="cluj">Cluj</option>
+            <br><br><br>
+            • <input type="submit" value="Submit">
+            <br>
+        </form> 
+    </body>
+</html>  
